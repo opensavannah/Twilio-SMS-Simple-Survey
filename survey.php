@@ -4,8 +4,8 @@ session_start();
 	
 //Config info here
 // Your Account Sid from twilio.com/user/account **USED TO VERIFY THE SCRIPT CALLING THIS PAGE IS TWILIO AND NOT A ROGUE SITE
-$sid = ""; 
-$token = ""; 
+$sid = "PN9aba9257bb1752cda003183eb14934a5"; 
+$token = "15afad067ffa3b4471ce48c26dccf733"; 
 
 $num_questions = 3;//number of questions follow format below when adding new questions.
 $q1 = "Thanks, here is the second question?";
