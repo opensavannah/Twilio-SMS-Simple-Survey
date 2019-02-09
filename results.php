@@ -7,11 +7,11 @@ require_once('Twilio.php'); // Loads the library
 	 
 	//********SET CONFIGURATION BELOW AND CONFIGURE TABLE LAYOUT AS NEEDED ******************
 	// Your Account Sid, Auth Token, and Number from twilio.com/user/account
-	$sid = ''; 
-	$token = ''; 
-	$twilio_number = '';
-	$start_date = '2014-03-09'; //start date to retrieve texts from
-	$end_date = '2014-03-11'; //last date of texts to retrieve
+	$sid = 'AC574241fde56e099d4b2bef45390b9288'; 
+	$token = '15afad067ffa3b4471ce48c26dccf733'; 
+	$twilio_number = '19124523121';
+	$start_date = '2019-03-08'; //start date to retrieve texts from
+	$end_date = '2019-05-10'; //last date of texts to retrieve
 
 	$client = new Services_Twilio($sid, $token);
 	 
